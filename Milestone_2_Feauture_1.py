@@ -6,7 +6,8 @@ from pathlib import Path
 import pandas as pd
 
 
-st.subheader('Flood Hazard Zones in San Jose', divider='grey')
+st.title('Flood Hazard Zones in San Jose')
+st.markdown('This map provides a general concentration of flooding hotspots in the greater San Jose region.')
 df = pd.read_csv("/Users/harshilpurohit/Desktop/Projects/118i-tutorial/Flood_Data_Map_v1.csv")
 
 # If your latitude and longitude columns are named differently, rename them
